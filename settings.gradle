@@ -1,0 +1,5 @@
+def initGradle(){
+    println("执行之前搞这个");
+}
+initGradle()
+include ":app"

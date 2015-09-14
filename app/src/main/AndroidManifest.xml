@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hp.fucktesting" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TestMateralDesignActivity" />
+        <activity android:name=".WebviewActivity" />
+        <activity android:name=".ZoomActivity" />
+        <activity android:name=".DesignActivity" />
+        <activity
+            android:name=".MediaActivity"
+            android:label="@string/title_activity_media"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <service
+            android:name=".Service.PlayService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".SwipeRefreshActivity"
+            android:label="@string/title_activity_swipe_refresh"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AnimationActivity"
+            android:label="@string/title_activity_animation"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>
