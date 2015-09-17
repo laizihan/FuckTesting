@@ -26,6 +26,8 @@ public class PlayService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.e("playservice", "onstartCommand" + "flags : " + flags + " startId : " + startId);
+        
+
 
         return START_STICKY;
 

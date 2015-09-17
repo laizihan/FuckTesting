@@ -33,8 +33,14 @@
        " />
     <item
         android:id="@+id/action_swipe"
-        android:title="去他妈的swipeRefresh"
-        />
-    <item android:id="@+id/action_animation"
-        android:title="去他妈的animation"/>
+        android:title="去他妈的swipeRefresh" />
+    <item
+        android:id="@+id/action_animation"
+        android:title="去他妈的animation" />
+    <item
+        android:id="@+id/action_draw"
+        android:title="去他妈的draw" />
+    <item
+        android:id="@+id/action_tab"
+        android:title="去他妈的TabLayout" />
 </menu>

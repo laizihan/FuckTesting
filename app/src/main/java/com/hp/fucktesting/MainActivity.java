@@ -60,7 +60,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, SwipeRefreshActivity.class));
                 break;
             case R.id.action_animation:
-                startActivity(new Intent(this,AnimationActivity.class));
+                startActivity(new Intent(this, AnimationActivity.class));
+                break;
+            case R.id.action_draw:
+                startActivity(new Intent(this, DrawActivity.class));
+                break;
+            case R.id.action_tab:
+                startActivity(new Intent(this, TabLayoutActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

@@ -8,18 +8,22 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.hp.fucktesting.AnimationActivity"
-    tools:showIn="@layout/activity_animation">
-
-
-    <android.support.v7.widget.AppCompatButton
+    tools:context="com.hp.fucktesting.DrawActivity"
+    tools:showIn="@layout/activity_draw">
+    <Button
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:onClick="startAnimation"
-        android:text="开启动画" />
+        android:text="点击测试"
+        android:id="@+id/btn_draw"
+        android:onClick="testDraw"
+        />
 
-
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/btn_draw"
+        android:id="@+id/iv_test_draw"
+        />
 
 </RelativeLayout>
